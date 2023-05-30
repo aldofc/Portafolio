@@ -1,8 +1,11 @@
 import React from 'react'
+import style from './Part2.module.css'
 
 const Part2 = () => {
   return (
-    <div>Part2</div>
+    <div className={style.container__page}>
+      <p className={style.tittle}>Desarrollo Personal</p>
+    </div>
   )
 }
 
