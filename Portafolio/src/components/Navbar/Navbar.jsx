@@ -8,10 +8,10 @@ const Navbar = () => {
 
       <div className={style.position}>
         
-        <div><button><a href="#home">Home</a></button></div>
-        <div><button><a href="#aboutme">Acerca de mi</a></button></div>
+        <div><button className={style.button}><a href="#home"><p className={style.titles}>Home</p></a></button></div>
+        <div><button className={style.button}><a href="#aboutme"><p className={style.titles}>Acerca de mi</p></a></button></div>
 
-        <div><button><a href="#projects">projects</a></button></div>
+        <div><button className={style.button}><a href="#projects"><p className={style.titles}>projects</p></a></button></div>
 
       </div>
 

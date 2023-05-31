@@ -8,5 +8,17 @@
     width: 99.2%;
     height: 10vh;
     margin-top: -1vh;
-    background-color: darkcyan;
+    background-color: rgb(255, 255, 255);
+}
+
+.titles{
+    font-size: 1vw;
+    color: black;
+}
+
+.button{
+    margin: 1vw;
+    
+    background-color: transparent;
+    border: none;
 }

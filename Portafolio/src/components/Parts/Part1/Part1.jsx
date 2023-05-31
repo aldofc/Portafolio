@@ -8,7 +8,7 @@ const Part1 = () => {
       <p className={style.tittle}>HOLA, SOY ALDO FLORES</p>
       <p>Un desarrollador web enfocado en frontend que construye el frontend de sitios web y aplicaciones web que
         conducen al éxito del producto en general.</p>
-      <button>Proyectos</button>
+      <button><a href="#projects">Proyectos</a></button>
 
       <SocialButtons />
 
