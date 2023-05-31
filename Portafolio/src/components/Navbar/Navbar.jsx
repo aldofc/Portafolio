@@ -1,15 +1,19 @@
 import React from 'react'
 import style from './Navbar.module.css'
 
+
 const Navbar = () => {
   return (
     <div className={style.container__navbar}>
+
+      <div className={style.position}>
         
-       <div className={style.position}>
-       <p>Home</p>
-       <p>Acerca de mi</p>
-       <p>Proyectos</p>
-       </div>
+        <div><button><a href="#home">Home</a></button></div>
+        <div><button><a href="#aboutme">Acerca de mi</a></button></div>
+
+        <div><button><a href="#projects">projects</a></button></div>
+
+      </div>
 
     </div>
   )

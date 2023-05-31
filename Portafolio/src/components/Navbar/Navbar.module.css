@@ -1,12 +1,12 @@
-.position{
+.position {
     float: right;
     display: flex;
     flex-direction: row;
-   
-   
 }
-.container__navbar{
-    width: 100%;
+.container__navbar {
+    position:fixed;
+    width: 99.2%;
     height: 10vh;
+    margin-top: -1vh;
     background-color: darkcyan;
 }

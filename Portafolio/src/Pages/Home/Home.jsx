@@ -10,10 +10,12 @@ const Home = () => {
     return (
         <div className={style.container__page__home}>
            <div>
+           <div className={style.container__top__navbar}>
            <Navbar />
+           </div>
            <Part1 />
            <Part2 />
-           <Part3 />
+           <div id='projects'><Part3 /></div>
            </div>
         </div>
     )
