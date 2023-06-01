@@ -8,9 +8,55 @@
 
 
 .tittle{
-    float:right;
-    
+    display: flex;
+    justify-content: center;
+   
+   
 }
+
+.parrafo{
+  display: flex;
+  justify-content: center;
+}
+
+.button__projects{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.animation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__buttons{
+  display: flex;
+  
+ 
+  align-items: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .button__scroll {

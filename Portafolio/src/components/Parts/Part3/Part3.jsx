@@ -6,8 +6,9 @@ const Part3 = () => {
   return (
     
     <div className={style.container__page} id='projects'>
+      <br></br><br></br> <br></br><br></br> <br></br><br></br>
       <p className={style.tittle}>Proyectos</p>
-      <p>Aquí encontrarás algunos de los proyectos personales y de clientes
+      <p className={style.parrafo}>Aquí encontrarás algunos de los proyectos personales y de clientes
         que creé con cada proyecto que contiene su propio caso de estudio.</p>
         <CyberZon3 />
     </div>

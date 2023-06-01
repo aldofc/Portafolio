@@ -5,5 +5,10 @@
     background-color: darkslategray;
 }
 .tittle{
-    float: right;
+    display: flex;
+    justify-content: center;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
 }
