@@ -5,8 +5,9 @@ import style from './Part1.module.css'
 const Part1 = () => {
   return (
     <div className={style.container__part1} id='home'>
-     <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
-      <p className={style.tittle}>HOLA, SOY ALDO FLORES</p>
+     <div className={style.none__space}><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
+     <div className={style.yes__space}><br></br><br></br><br></br><br></br><br></br></div>
+      <div className={style.center__title}><p className={style.tittle}>HOLA, SOY ALDO FLORES</p></div>
 
       <div className={style.container__parrafo}>
         <p className={style.parrafo}>Un desarrollador web enfocado en frontend que construye el frontend de sitios web y  </p>

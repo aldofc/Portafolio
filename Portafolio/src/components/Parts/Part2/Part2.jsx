@@ -6,8 +6,11 @@ const Part2 = () => {
     <div className={style.container__page} id='aboutme'>
       <br></br><br></br> <br></br><br></br> <br></br><br></br>
       <p className={style.tittle}>Acerca de mi</p>
+      <div className={style.container__parrafo__acerca__de__mi}>
       <p className={style.parrafo}>Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales,</p>
       <p className={style.parrafo}>principalmente en términos de programación y tecnología.</p>
+     
+      </div>
 
       <div className={style.position}>
         <div className={style.conoceme}>

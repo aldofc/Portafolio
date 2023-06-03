@@ -3,7 +3,7 @@
   height: 100%;
   min-height: 100vh;
   margin-top: -1vh;
-  background-color: rgb(185, 185, 185);
+  background-color: #fafafa;;
 }
 
 .tittle{
@@ -11,12 +11,16 @@
    justify-content: center;
    font-weight: bold;
    font-size: 3rem;
+   margin-bottom: 2.5rem;
+   text-align: center;
 }
 
 .parrafo{
   display : flex ;
   justify-content : center ;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  
 }
 
 .position{
@@ -53,14 +57,18 @@
 
 .conoceme__tittle{
   margin: 1vw;
+ font-size: 1.5rem;
+ margin-bottom: 2rem;
 }
 
 .btn {
-  width: 10vw;
+  width: 15rem;
   font-size:larger;
  margin: 1vw;
   padding: 1.5rem;
   background: #facf0f;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
 
   text-transform: uppercase;
@@ -81,9 +89,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
- margin: 0.7vw;
- min-width: 4vw;
+  background-color:rgba(153,153,153,.2);
+ margin: 0.5vw;
+ min-width: 6vw;
   height: 4vh;
   border-radius: 0.2vw;
 }
@@ -109,19 +117,107 @@
 }
 
 
+.container__parrafo__acerca__de__mi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 
 
 
-@media (max-width:500px){
+
+
+
+@media screen and (max-width:767px){
   .position{
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10vw;
+    align-items: center;
+    margin-left: 3vw;
+   
     
     
-    background-color: brown;
+    
 }
 
+.conoceme{
+  width: 80vw;
+  margin: 1vw;
+ 
 }
+
+.skills{
+ 
+  width: 80vw;
+  margin: 1vw;
+  /* background-color: blueviolet; */
+  margin-bottom: 10vh;
+ 
+}
+
+
+.btn {
+  min-width: 12rem;
+  font-size:larger;
+ margin: 1vw;
+  padding: 1.5rem;
+  background: #facf0f;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  transition: transform .3s;
+
+}
+
+.skills__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(153,153,153,.2);
+ margin: 1vw;
+ min-width: 20vw;
+  height: 4vh;
+  border-radius: 0.5vw;
+}
+
+
+.parrafo{
+  max-width: 80vw;
+  display : flex ;
+  justify-content : center ;
+  align-items: center;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+.parrafo__conoceme{
+  font-size: 1rem;
+  margin: 1vw;
+  font-stretch: expanded;
+}
+
+.tittle{
+  display: flex;
+ justify-content: center;
+ font-weight: bold;
+ font-size: 2.5rem;
+ margin-bottom: 2.5rem;
+ text-align: center;
+}
+
+
+}
+
+
