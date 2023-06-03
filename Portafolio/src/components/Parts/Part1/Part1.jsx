@@ -5,7 +5,7 @@ import style from './Part1.module.css'
 const Part1 = () => {
   return (
     <div className={style.container__part1} id='home'>
-      <br></br><br></br> <br></br><br></br> <br></br><br></br><br></br><br></br><br></br>
+     <div><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
       <p className={style.tittle}>HOLA, SOY ALDO FLORES</p>
 
       <div className={style.container__parrafo}>
@@ -45,6 +45,7 @@ const Part1 = () => {
       </div>{/* div scroll */}
       
     </div>
+   
   )
 }
 
