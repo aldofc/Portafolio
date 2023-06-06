@@ -1,16 +1,17 @@
-.container__page{
+.container__page {
     width: 100%;
-    height: 100vh;
+    
     margin-top: -1vh;
-   
 }
-.tittle{
+
+.tittle {
     display: flex;
     justify-content: center;
     font-size: 3rem;
     margin-bottom: 3rem;
 }
-.parrafo{
+
+.parrafo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,16 +20,36 @@
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
-    background-color: aqua;
 }
 
-.container__parrafo{
+.container__parrafo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10vw;
     width: 80vw;
-    background-color: rgb(147, 147, 147);
     margin-bottom: 5rem;
 }
 
+
+@media screen and (max-width:767px) {
+    .parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .container__parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10vw;
+        width: 80vw;
+        margin-bottom: 5rem;
+    }
+}

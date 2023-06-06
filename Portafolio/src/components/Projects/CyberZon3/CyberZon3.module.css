@@ -1,48 +1,41 @@
-.container__cyberzone{
+.container__cyberzone {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-    
     width: 90vw;
     margin-left: 5vw;
-   
-   
-    background-color: brown;
 }
 
-.tittle{
-    margin-bottom: 5rem;
+.tittle {
     font-weight: bold;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-.parrafo{
+.parrafo {
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-.container__left{
+.container__left {
     width: 45rem;
     display: flex;
     justify-content: center;
-    
     float: left;
-    background-color: aquamarine;
 }
 
-.container__rigth{
+.container__rigth {
     width: 40rem;
     float: right;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    
-    background-color: bisque;
-    
 }
 
-.container__image{
+.container__image {
     display: flex;
     justify-content: center;
     width: 40vw;
@@ -50,14 +43,12 @@
 
 .btn {
     width: 13rem;
-    font-size:large;
-   margin: 1vw;
+    font-size: large;
+    margin: 1vw;
     padding: 1.5rem;
     background: #facf0f;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-  
-  
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
@@ -65,40 +56,49 @@
     border-radius: 5px;
     border: none;
     transition: transform .3s;
-  
-  }
+}
 
-
- @media screen and (max-width:767px){
-    .container__cyberzone{
+/* responsive telefono */
+@media screen and (max-width:767px) {
+    .container__cyberzone {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 90vw;
-        
     }
 
-    .container__image{
+    .container__image {
         width: 90vw;
     }
 
-    .container__left{
+    .container__left {
         width: 90vw;
         display: flex;
         justify-content: center;
-        
         float: left;
-        background-color: aquamarine;
     }
-    
-    .container__rigth{
+
+    .container__rigth {
         width: 90vw;
-        height: 30vh;
         float: right;
         display: flex;
         flex-direction: column;
-    justify-content: center;
-        background-color: bisque;
+        justify-content: center;
     }
- }
+
+    .tittle {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .parrafo {
+        display: flex;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
