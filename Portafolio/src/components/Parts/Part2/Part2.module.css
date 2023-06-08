@@ -57,7 +57,7 @@
 
 .conoceme__tittle{
   margin: 1vw;
- font-size: 1.5rem;
+ font-size: 2rem;
  margin-bottom: 2rem;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .habilidades__tittle{
-  margin: 1vw;
+  margin: 2vw;
 }
 
 .skills__box{
@@ -218,6 +218,26 @@
 }
 
 
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+  .tittle{
+    display: flex;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 2.5rem;
+   margin-bottom: 2.5rem;
+   text-align: center;
+}
+
+.parrafo{
+  display : flex ;
+  justify-content : center ;
+  font-size: 1.2rem;
+  text-align: center;
+  
+}
 }
 
 

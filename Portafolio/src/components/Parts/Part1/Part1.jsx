@@ -7,6 +7,7 @@ const Part1 = () => {
     <div className={style.container__part1} id='home'>
       <div className={style.none__space}><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></div>
       <div className={style.yes__space}><br></br><br></br><br></br><br></br><br></br></div>
+      <div className={style.yes1__space}><br></br><br></br><br></br><br></br><br></br><br></br></div>
       <div className={style.center__title}><p className={style.tittle}>HOLA, SOY ALDO FLORES</p></div>
 
       <div className={style.container__parrafo}>
