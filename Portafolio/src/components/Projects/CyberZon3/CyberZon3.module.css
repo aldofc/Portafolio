@@ -57,6 +57,7 @@
     border-radius: 5px;
     border: none;
     transition: transform .3s;
+   cursor: pointer;
 }
 
 /* responsive telefono */

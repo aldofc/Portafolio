@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import style from './CyberZon3.module.css'
 import IMAGE from '../../../assets/Untitled Project.jpg'
 
@@ -20,7 +21,7 @@ const CyberZon3 = () => {
           dashboard de administrador etc.
           
         </p>
-        <button className={style.btn}>Ver Proyecto</button>
+       <NavLink target={'_blank'} to={'./details'}> <button className={style.btn}>Ver Proyecto</button></NavLink>
       </div>
       
       </div>
