@@ -1,0 +1,15 @@
+.container__form{
+    width: 80%;
+    background-color: aquamarine;
+    height: 50vh;
+   
+}
+
+@media screen and (max-width:767px){
+    .container__form{
+        width: 90%;
+        background-color: aquamarine;
+        height: 50vh;
+       
+    }
+}
