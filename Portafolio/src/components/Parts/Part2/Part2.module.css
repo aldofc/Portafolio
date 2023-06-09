@@ -18,8 +18,19 @@
 .parrafo{
   display : flex ;
   justify-content : center ;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
+  
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    
+    
+
   
 }
 
@@ -53,6 +64,12 @@
   font-size: 1.2rem;
   margin: 1vw;
   font-stretch: expanded;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7;
 }
 
 .conoceme__tittle{
@@ -217,6 +234,25 @@
  font-size: 2.5rem;
  margin-bottom: 2.5rem;
  text-align: center;
+}
+
+.parrafo{
+  display : flex ;
+  justify-content : center ;
+  font-size: 1rem;
+  text-align: center;
+  
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    
+    
+
+  
 }
 
 

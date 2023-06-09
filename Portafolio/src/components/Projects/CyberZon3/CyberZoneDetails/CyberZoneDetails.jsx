@@ -9,7 +9,9 @@ const CyberZon3Details = () => {
     return (
         <div>
             <section className={style.part1}>
-                <div><button>Volver</button></div>
+                <div>
+                    <NavLink to={'/'}><button>Volver</button></NavLink>
+                    </div>
                 <div className={style.tittle}><h1 className={style.tittle__style}>CyberZon3</h1></div>
                 <div className={style.parrafo__position}><p className={style.parrafo__style}>Esta página contiene el estudio de caso del proyecto de código
                     abierto CyberZone que incluye la descripción general del proyecto, las herramientas utilizadas y los

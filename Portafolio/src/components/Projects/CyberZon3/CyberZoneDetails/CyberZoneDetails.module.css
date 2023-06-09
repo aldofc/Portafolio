@@ -47,13 +47,13 @@
 }
 
 .description__long{
-    width: 70%;
+    width: 90%;
     
     display: flex;
     justify-content: center;
     background-color: rgb(232, 232, 232);
     margin: 2rem;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .tecnologias{
@@ -98,6 +98,12 @@
 .parrafo__style{
     text-align: center;
     font-size: 1.5rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7;
 }
 
 .btn__style{
@@ -161,6 +167,12 @@
 .decripcion__style{
     text-align: center;
     font-size: 1.1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7;
 }
 
 
@@ -205,10 +217,29 @@
         justify-content: center;
         width: 90%;
         margin-left: 5%;
-        background-color: azure;
-        margin-top: 5rem;
+       
+       
     
     }
+
+    .tittle__style{
+        margin: 1rem;
+        margin-top: 2rem;
+        font-size: 3rem;
+        
+    }
+
+    .parrafo__style{
+        text-align: center;
+        font-size: 1.2rem;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        line-height: 1.7;
+    }
+    
 
     
     
