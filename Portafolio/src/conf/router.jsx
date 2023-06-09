@@ -1,7 +1,7 @@
 import { createBrowserRouter, Route, createRoutesFromElements } from 'react-router-dom';
 
 import Home from '../Pages/Home/Home';
-import CyberZon3Details from '../components/Projects/CyberZon3/CyberZon3Details';
+import CyberZon3Details from '../components/Projects/CyberZon3/CyberZoneDetails/CyberZoneDetails';
 
 
 
