@@ -1,0 +1,127 @@
+.container__footer {
+    width: 100%;
+    min-height: 26vh;
+    background-color: black;
+
+   
+}
+
+.part1 {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.part2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    border-top: 1px solid white;
+   
+}
+
+
+
+.part__left {
+    width: 60%;
+   
+}
+
+.part__left__minimo {
+    width: 70%;
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+
+}
+
+.part__rigth {
+    width: 40%;
+   
+}
+
+.name {
+    font-size: 2rem;
+    text-align: start;
+    margin: 1rem;
+    color: white;
+}
+
+.parrafo {
+    margin: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    line-height: 1.7;
+    color: white;
+}
+
+.redes__tittle{
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+   
+    margin: 1rem;
+}
+
+.buttons{
+    width: 3rem;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.icon{
+    fill: white;
+}
+
+
+.copy{
+    color: white;
+    margin: 2rem;
+}
+
+.link__aldo{
+    color: white;
+    
+}
+
+@media screen and (max-width:767px) {
+    .part1 {
+        height: 80%;
+       
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .part__rigth {
+        width: 90%;
+        margin-left: 5%;
+       
+    }
+
+    .part__left {
+        width: 90%;
+        margin-left: 5%;
+       
+    }
+
+    .part__left__minimo {
+        width: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    
+    }
+}
