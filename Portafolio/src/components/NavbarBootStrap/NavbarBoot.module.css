@@ -1,0 +1,33 @@
+.container__fixed {
+    width: 100%;
+    min-height: 10vh;
+    position: fixed;
+}
+
+.size__img {
+    width: 4.3rem;
+    border-radius: 5rem;
+}
+
+.float__rigth {
+    float: inline-end;
+}
+
+.float__left {
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.myname__style {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.myname__style:hover {
+    color: #facf0f;
+}

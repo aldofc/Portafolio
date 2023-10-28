@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
+import NabvarBoot from '../../components/NavbarBootStrap/NabvarBoot'
 import Part1 from '../../components/Parts/Part1/Part1'
 import Part2 from '../../components/Parts/Part2/Part2'
 import Part3 from '../../components/Parts/Part3/Part3'
@@ -12,7 +13,7 @@ const Home = () => {
         <div className={style.container__page__home}>
             <div>
                 <div className={style.container__top__navbar}>
-                    <Navbar />
+                    <NabvarBoot />
                 </div>
                 <Part1 />
                 <Part2 />
