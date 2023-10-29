@@ -7,7 +7,10 @@ const NabvarBoot = () => {
     <div className={style.container__fixed}>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
+   <div className={style.img__and__name}>
    <img className={style.size__img} src={Aldo} alt="" />
+   <p className={style.nameTop}>Aldo Flores</p>
+   </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

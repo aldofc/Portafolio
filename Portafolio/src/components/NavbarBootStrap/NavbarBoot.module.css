@@ -31,3 +31,37 @@
 .myname__style:hover {
     color: #facf0f;
 }
+
+.nameTop{
+    float: left;
+    font-weight: bold;
+    /* color: #facf0f; */
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+    
+    
+  
+}
+
+.nameTop:hover{
+    color: #facf0f;
+}
+
+.img__and__name{
+    display: flex;
+    
+    align-items: center;
+}
+
+
+@media screen and (min-width:100px) and (max-width:991px){
+.nameTop{
+    display: flex;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+   
+    
+
+}
+}
