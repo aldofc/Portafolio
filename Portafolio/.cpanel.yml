@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/siunkdhi/aldo.cyberzon3.com/
+    - /bin/cp -R dist $DEPLOYPATH
