@@ -26,6 +26,9 @@ const NabvarBoot = () => {
         <li class="nav-item">
           <a class="nav-link" href="#projects"><p className={style.myname__style}>Proyectos</p></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact"><p className={style.myname__style}>Contacto</p></a>
+        </li>
         {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown link

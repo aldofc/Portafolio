@@ -4,7 +4,7 @@ import style from './Contact.module.css'
 
 const Contact = () => {
   return (
-    <div className={style.container__Form}>
+    <div className={style.container__Form} id='Contact'>
         <div className={style.container__tittle}>
             <h1 className={style.tittle}>Contacto</h1>
             </div>

@@ -1,0 +1,59 @@
+.container__footer {
+    width: 100%;
+    min-height: 30vh;
+    color: white;
+    background-color: black;
+}
+
+.contenedor__left__and__rigth {
+    display: flex;
+}
+
+.container__left {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.container__rigth {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 25%;
+    margin-left: 25%;
+}
+
+.container__below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    min-height: 10vh;
+    border-top: 1px solid white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    fill: rgb(0, 0, 0);
+    background-color: white;
+    width: 2.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    border: none;
+}
+
+.myname {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6rem;
+}
+
+.paragraph {
+    margin-bottom: 5rem;
+}
