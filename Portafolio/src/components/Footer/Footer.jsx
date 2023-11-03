@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
 
             <div className={style.container__below}>
-                <p>© Copyright 2023. Made by Aldo Flores Carreon</p>
+                <p className={style.copyrigth}>© Copyright 2023. Made by Aldo Flores Carreon</p>
             </div>
         </div>
     )

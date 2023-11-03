@@ -57,3 +57,34 @@
 .paragraph {
     margin-bottom: 5rem;
 }
+
+.copyrigth{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .contenedor__left__and__rigth {
+        flex-direction: column-reverse;
+    }
+
+    .container__left{
+        width: 90%;
+    }
+
+    .container__rigth{
+        width: 90%;
+       margin-left: 10%;
+       
+    }
+
+    .paragraph{
+        width: 90%;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 10%;
+        line-height: 1.7;
+    }
+}
