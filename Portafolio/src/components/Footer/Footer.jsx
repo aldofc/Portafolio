@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className={style.container__left}>
                     <p className={style.myname}>Aldo Flores Carreon</p>
                     <p className={style.paragraph}>Un desarrollador web centrado en el frontend que construye el frontend de sitios web
-                        y aplicaciones web que conduce al éxito del producto general.</p>
+                        y aplicaciones web que conduce al éxito del producto general</p>
                 </div>
                 <div className={style.container__rigth}>
 
