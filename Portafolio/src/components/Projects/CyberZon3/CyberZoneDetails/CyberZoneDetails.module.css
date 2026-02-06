@@ -34,6 +34,7 @@
 .container__img{
     display: flex;
     justify-content: center;
+    
 }
 
 .size__image{
@@ -180,6 +181,8 @@
 @media screen and (max-width:767px){
     .size__image{
         width: 25rem;
+        max-width: 100%;
+        
       }
       .row__buttons{
         display: flex;
